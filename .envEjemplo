@@ -1,0 +1,19 @@
+# Configuración de la base de datos remota
+remote_host= RUTA_HOST_REMOTO
+remote_port= 3306
+remote_user= USUARIO_REMOTO
+remote_password= PASSWORD_HOST_REMOTO
+remote_database= NOMBRE_BBDD_REMOTA
+auth_plugin= caching_sha2_password
+
+# Configuración de la base de datos local
+local_host= RUTA_HOST_LOCAL
+local_port= 3306
+local_user= USUARIO_LOCAL
+local_password= PASSWORD_HOST_LOCAL
+local_database= NOMBRE_BBDD_LOCAL
+
+# OpenVPN y rutas de log y dump
+OPENVPN_PROFILE_NAME = <perfil_openvpn>
+LOG_PATH = ruta/del/archivo/log/
+DUMP_PATH = ruta/del/archivo/dump/
